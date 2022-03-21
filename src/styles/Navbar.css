@@ -1,0 +1,73 @@
+/*************** Navbar styles***************/
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.marginpp{
+    
+    /* border: 1px solid red; */
+    width: 90vw;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+
+}
+
+.navbar{
+    height: 70px;
+    min-width: 340px;
+    box-shadow: 0px 3px 5px  rgb(184, 183, 183);
+}
+
+.logo{
+    float: left;
+    /* border: 1px solid green; */
+    width: 70px;
+    margin-top: 7px;
+}
+
+.search{
+    float: right;
+    /* border: 1px solid blue; */
+    margin-top: 15px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 5px  rgb(184, 183, 183);
+   
+    padding: 10px;
+    display: block;
+    
+    
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    resize: none;
+   
+    width: 250px;  
+}
+
+/* Medium devices (landscape tablets, 300px and down) ************************************/
+@media only screen and (max-width: 361px) {
+
+    .marginpp{
+    
+        
+        min-width: 340px;
+        
+    
+    }
+    input{
+        
+       
+        width: 150px;  
+    }
+    
+}
